@@ -82,10 +82,7 @@ img {
   gap: 32px;
   font-weight: 600;
 }
-.navbar-link:hover,
-.navbar_mobile-menu-link:hover {
-  color: var(--primary-color);
-}
+z
 .navbar-link--primary,
 .navbar_mobile-menu-link--primary {
   color: var(--primary-color);
@@ -133,6 +130,8 @@ img {
   background: #000 url("../images/header-background.jpg") center center/cover
     no-repeat;
   padding: 11.5rem 2rem 8rem;
+  position: relative;
+  bottom: 1.5rem;
 }
 .hero-container {
   display: flex;
@@ -668,4 +667,95 @@ img {
   .container-testimonials {
     grid-template-columns: 1fr;
   }
+}
+
+/* LogIn */
+
+.hidden {
+  background: #000 url("../images/header-background.jpg") center center/cover no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative; 
+  bottom: 3.5rem;
+}
+.form {
+  background-color: #fff;
+  padding: 5rem 3rem;
+  max-width: 900px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  position: relative;
+  bottom: 2rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input, .form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.submit {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  transition: 0.3;
+}
+.submit:hover{
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+
+.signup-link {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  position: relative;
+  top: 1rem;
+  left: 1.4rem;
+}
+
+.signup-link a {
+  text-decoration: underline;
+  text-align: center;
 }
