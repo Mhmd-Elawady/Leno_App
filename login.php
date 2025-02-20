@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -23,20 +24,20 @@
     <!-- Main Page -->
     <div id="main-page">
         <li class="navbar-item">
-            <a href="login.php" class="navbar-link"></a>
+            <a href="login.html" class="navbar-link"></a>
           </li>
     </div>
 
     <!-- Login Page -->
     <div id="login-page" class="hidden">
-        <form class="form" method="post" action="">
+        <form class="form"action="server.php" method="post" >
             <p class="form-title">Sign in to your account</p>
             <div class="input-container">
-                <input type="email" placeholder="Enter email">
+                <input type="email" placeholder="Enter email" name="email">
                 <span></span>
             </div>
             <div class="input-container">
-                <input type="password" placeholder="Enter password">
+                <input type="password" placeholder="Enter password" name="password">
             </div>
             <button type="submit" class="submit">
                 Sign in
