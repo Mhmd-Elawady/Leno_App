@@ -15,7 +15,7 @@
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    />ٌ
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="./images/favicon.png" />
     <title>Leno App | Health & Productivity</title>
@@ -36,13 +36,13 @@
               <a href="#Features" class="navbar-link">Features</a>
             </li>
             <li class="navbar-item">
-              <a href="#Preview" class="navbar-link">Preview</a>
+              <a href="#download" class="navbar-link">Download</a>
             </li>
             <li class="navbar-item">
-              <a href="#Details" class="navbar-link">Details</a>
+              <a href="#details" class="navbar-link">Details</a>
             </li>
             <li class="navbar-item">
-              <a href="#Download" class="navbar-link">Download</a>
+              <a href="login.html" class="navbar-link">Login</a>
             </li>
             <li class="navbar-item">
               <a href="#" class="navbar-link--primary">
@@ -103,7 +103,7 @@
       </div>
     </navbar>
     <!-- Hero -->
-    <header class="hero">
+    <header class="hero" id="Home">
       <div class="hero-container container">
         <div class="hero-content">
           <h1 class="hero-text">
@@ -288,6 +288,7 @@
             <div class="review-video">
               <img src="images/video-frame.jpg" alt="" />
               <button class="preview_button">
+                <button class="preview_button" onclick="openVideo()">
                 <span class="preview__video-play-button">
                   <span></span>
                 </span>
@@ -380,7 +381,7 @@
       </div>
     </section>
     <!-- download -->
-    <section class="download">
+    <section class="download" id="download">
       <div class="download-container container">
         <div class="download-content">
           <p class="download-description">
