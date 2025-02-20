@@ -27,5 +27,5 @@ const previewLink = document.getElementById('preview-link');
 
 
         function openVideo() {
-          window.open("https://youtu.be/wf3nYeAvvZw?si=Yn7r3_KacrqVrf4U", "_blank");
+          window.open("https://youtu.be/8nS0j_GRt6Q?si=NqA2wlhbWDFdThKM", "_blank");
         }
