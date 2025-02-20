@@ -14,3 +14,18 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("navbar--scroll");
   }
 });
+
+const previewLink = document.getElementById('preview-link');
+        const mainPage = document.getElementById('main-page');
+        const loginPage = document.getElementById('login-page');
+
+        previewLink.addEventListener('click', function (e) {
+            e.preventDefault(); 
+            mainPage.classList.add('hidden'); 
+            loginPage.classList.remove('hidden'); 
+        });
+
+
+        function openVideo() {
+          window.open("https://youtu.be/wf3nYeAvvZw?si=Yn7r3_KacrqVrf4U", "_blank");
+        }
